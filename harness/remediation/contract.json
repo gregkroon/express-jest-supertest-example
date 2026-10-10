@@ -3,7 +3,7 @@
     "package-lock.json",
     "package.json"
   ],
-  "baseSha": "96709d95d55c1a1cb8902495cd269b6214530fb8",
+  "baseSha": "2ea002742333a68f700fa026e55e17d52d980a3b",
   "conflictDomain": {
     "ecosystem": "npm",
     "id": "71a33e13f0396e52",
@@ -29,86 +29,56 @@
     "securityControlModificationForbidden": true,
     "testModificationForbidden": true
   },
-  "scanSha": "96709d95d55c1a1cb8902495cd269b6214530fb8",
+  "scanSha": "2ea002742333a68f700fa026e55e17d52d980a3b",
   "schema": "harness.remediation/contract.v1",
-  "stoExecutionId": "XIpcfEVnStK68PG570W5rg",
+  "stoExecutionId": "GYfci78dTAqmqb_y6XiRYQ",
   "stoTargetId": "JPOWfAZLOLVRonSBIBz_66",
   "targetBranch": "master",
   "units": [
     {
       "candidateVersions": [
-        "1.20.8"
-      ],
-      "coordinate": {
-        "normalisedName": "body-parser",
-        "purl": "pkg:npm/body-parser@1.19.0"
-      },
-      "fromVersion": "1.19.0",
-      "issueIds": [
-        "Dgk9PJ0BTxjF1MCjQLOWod"
-      ],
-      "minimumFixedVersion": "1.20.3",
-      "package": "body-parser"
-    },
-    {
-      "candidateVersions": [
-        "2.2.3"
-      ],
-      "coordinate": {
-        "normalisedName": "json5",
-        "purl": "pkg:npm/json5@2.1.3"
-      },
-      "fromVersion": "2.1.3",
-      "issueIds": [
-        "FqwOdiMRUihSIatZ_Vr58B"
-      ],
-      "minimumFixedVersion": "2.2.2",
-      "package": "json5"
-    },
-    {
-      "candidateVersions": [
-        "1.0.7"
-      ],
-      "coordinate": {
-        "normalisedName": "path-parse",
-        "purl": "pkg:npm/path-parse@1.0.6"
-      },
-      "fromVersion": "1.0.6",
-      "issueIds": [
-        "xgXEwBt0CJa9Y9V7xGdW62"
-      ],
-      "minimumFixedVersion": "1.0.7",
-      "package": "path-parse"
-    },
-    {
-      "candidateVersions": [
-        "5.7.2"
+        "6.3.1"
       ],
       "coordinate": {
         "normalisedName": "semver",
-        "purl": "pkg:npm/semver@5.7.1"
+        "purl": "pkg:npm/semver@6.3.0"
       },
-      "fromVersion": "5.7.1",
+      "fromVersion": "6.3.0",
       "issueIds": [
-        "uP_AYp5dBh7m74alrYwhU4"
+        "sAaMgoMKKydIjOSjYkikM2"
       ],
-      "minimumFixedVersion": "5.7.2",
+      "minimumFixedVersion": "6.3.1",
       "package": "semver"
     },
     {
       "candidateVersions": [
-        "7.8.5"
+        "1.0.5"
       ],
       "coordinate": {
-        "normalisedName": "semver",
-        "purl": "pkg:npm/semver@7.3.2"
+        "normalisedName": "tmpl",
+        "purl": "pkg:npm/tmpl@1.0.4"
       },
-      "fromVersion": "7.3.2",
+      "fromVersion": "1.0.4",
       "issueIds": [
-        "1uV15APbV6c2cGOTTq__e4"
+        "EO3T4giSliwUiJJqiQHTHd"
       ],
-      "minimumFixedVersion": "7.5.2",
-      "package": "semver"
+      "minimumFixedVersion": "1.0.5",
+      "package": "tmpl"
+    },
+    {
+      "candidateVersions": [
+        "1.2.5"
+      ],
+      "coordinate": {
+        "normalisedName": "word-wrap",
+        "purl": "pkg:npm/word-wrap@1.2.3"
+      },
+      "fromVersion": "1.2.3",
+      "issueIds": [
+        "C8KEU2l4R36AWRAwN2zfQ3"
+      ],
+      "minimumFixedVersion": "1.2.4",
+      "package": "word-wrap"
     }
   ]
 }
