@@ -3,7 +3,7 @@
     "package-lock.json",
     "package.json"
   ],
-  "baseSha": "6205d58c7c1b70c2134ec2eb086b2e503a03b19d",
+  "baseSha": "96709d95d55c1a1cb8902495cd269b6214530fb8",
   "conflictDomain": {
     "ecosystem": "npm",
     "id": "71a33e13f0396e52",
@@ -29,236 +29,86 @@
     "securityControlModificationForbidden": true,
     "testModificationForbidden": true
   },
-  "scanSha": "6205d58c7c1b70c2134ec2eb086b2e503a03b19d",
+  "scanSha": "96709d95d55c1a1cb8902495cd269b6214530fb8",
   "schema": "harness.remediation/contract.v1",
-  "stoExecutionId": "tJA-OfPzQ6KsLItMHLpQ5Q",
+  "stoExecutionId": "XIpcfEVnStK68PG570W5rg",
   "stoTargetId": "JPOWfAZLOLVRonSBIBz_66",
   "targetBranch": "master",
   "units": [
     {
       "candidateVersions": [
-        "2.0.8"
+        "1.20.8"
       ],
       "coordinate": {
-        "normalisedName": "proxy-addr",
-        "purl": "pkg:npm/proxy-addr@2.0.6"
+        "normalisedName": "body-parser",
+        "purl": "pkg:npm/body-parser@1.19.0"
       },
-      "fromVersion": "2.0.6",
+      "fromVersion": "1.19.0",
       "issueIds": [
-        "FB1SjZnkd4DeAeOmv9Rddi"
+        "Dgk9PJ0BTxjF1MCjQLOWod"
       ],
-      "minimumFixedVersion": "2.0.8",
-      "package": "proxy-addr"
+      "minimumFixedVersion": "1.20.3",
+      "package": "body-parser"
     },
     {
       "candidateVersions": [
-        "4.0.3"
+        "2.2.3"
       ],
       "coordinate": {
-        "normalisedName": "y18n",
-        "purl": "pkg:npm/y18n@4.0.0"
+        "normalisedName": "json5",
+        "purl": "pkg:npm/json5@2.1.3"
       },
-      "fromVersion": "4.0.0",
+      "fromVersion": "2.1.3",
       "issueIds": [
-        "0OemJvJ2W6c3JaQ4utUqCs"
+        "FqwOdiMRUihSIatZ_Vr58B"
       ],
-      "minimumFixedVersion": "4.0.1",
-      "package": "y18n"
+      "minimumFixedVersion": "2.2.2",
+      "package": "json5"
     },
     {
       "candidateVersions": [
-        "1.1.21"
+        "1.0.7"
       ],
       "coordinate": {
-        "normalisedName": "brace-expansion",
-        "purl": "pkg:npm/brace-expansion@1.1.11"
+        "normalisedName": "path-parse",
+        "purl": "pkg:npm/path-parse@1.0.6"
       },
-      "fromVersion": "1.1.11",
+      "fromVersion": "1.0.6",
       "issueIds": [
-        "Hh_ed2SC9IN47CwYYsxbos"
+        "xgXEwBt0CJa9Y9V7xGdW62"
       ],
-      "minimumFixedVersion": "1.1.16",
-      "package": "brace-expansion"
+      "minimumFixedVersion": "1.0.7",
+      "package": "path-parse"
     },
     {
       "candidateVersions": [
-        "3.15.2"
+        "5.7.2"
       ],
       "coordinate": {
-        "normalisedName": "js-yaml",
-        "purl": "pkg:npm/js-yaml@3.14.0"
+        "normalisedName": "semver",
+        "purl": "pkg:npm/semver@5.7.1"
       },
-      "fromVersion": "3.14.0",
+      "fromVersion": "5.7.1",
       "issueIds": [
-        "Kabz1zneKXwchu9lIS40VD"
+        "uP_AYp5dBh7m74alrYwhU4"
       ],
-      "minimumFixedVersion": "3.15.0",
-      "package": "js-yaml"
+      "minimumFixedVersion": "5.7.2",
+      "package": "semver"
     },
     {
       "candidateVersions": [
-        "3.1.5"
+        "7.8.5"
       ],
       "coordinate": {
-        "normalisedName": "minimatch",
-        "purl": "pkg:npm/minimatch@3.0.4"
+        "normalisedName": "semver",
+        "purl": "pkg:npm/semver@7.3.2"
       },
-      "fromVersion": "3.0.4",
+      "fromVersion": "7.3.2",
       "issueIds": [
-        "N9a3Q4ypYUQXWosZjA1SD6"
+        "1uV15APbV6c2cGOTTq__e4"
       ],
-      "minimumFixedVersion": "3.1.3",
-      "package": "minimatch"
-    },
-    {
-      "candidateVersions": [
-        "6.16.0"
-      ],
-      "coordinate": {
-        "normalisedName": "qs",
-        "purl": "pkg:npm/qs@6.7.0"
-      },
-      "fromVersion": "6.7.0",
-      "issueIds": [
-        "C4yizhXAP-t75phjf7N3GU"
-      ],
-      "minimumFixedVersion": "6.7.3",
-      "package": "qs"
-    },
-    {
-      "candidateVersions": [
-        "0.1.13"
-      ],
-      "coordinate": {
-        "normalisedName": "path-to-regexp",
-        "purl": "pkg:npm/path-to-regexp@0.1.7"
-      },
-      "fromVersion": "0.1.7",
-      "issueIds": [
-        "nzKpamuK_onL-bnzpU7-EU"
-      ],
-      "minimumFixedVersion": "0.1.10",
-      "package": "path-to-regexp"
-    },
-    {
-      "candidateVersions": [
-        "6.16.0"
-      ],
-      "coordinate": {
-        "normalisedName": "qs",
-        "purl": "pkg:npm/qs@6.5.2"
-      },
-      "fromVersion": "6.5.2",
-      "issueIds": [
-        "MFIdPz0q1yMXAxNzn3u1-W"
-      ],
-      "minimumFixedVersion": "6.5.3",
-      "package": "qs"
-    },
-    {
-      "candidateVersions": [
-        "7.5.13"
-      ],
-      "coordinate": {
-        "normalisedName": "ws",
-        "purl": "pkg:npm/ws@7.3.0"
-      },
-      "fromVersion": "7.3.0",
-      "issueIds": [
-        "tDJb2ouvvmq_-UCyTYfAdW"
-      ],
-      "minimumFixedVersion": "7.5.10",
-      "package": "ws"
-    },
-    {
-      "candidateVersions": [
-        "0.2.2"
-      ],
-      "coordinate": {
-        "normalisedName": "decode-uri-component",
-        "purl": "pkg:npm/decode-uri-component@0.2.0"
-      },
-      "fromVersion": "0.2.0",
-      "issueIds": [
-        "cZcQXYBLcmZpUUtthYXM68"
-      ],
-      "minimumFixedVersion": "0.2.1",
-      "package": "decode-uri-component"
-    },
-    {
-      "candidateVersions": [
-        "2.3.2"
-      ],
-      "coordinate": {
-        "normalisedName": "picomatch",
-        "purl": "pkg:npm/picomatch@2.2.2"
-      },
-      "fromVersion": "2.2.2",
-      "issueIds": [
-        "Si9CvrS9xt2ZLOcQ1L-3p7"
-      ],
-      "minimumFixedVersion": "2.3.2",
-      "package": "picomatch"
-    },
-    {
-      "candidateVersions": [
-        "5.0.1"
-      ],
-      "coordinate": {
-        "normalisedName": "ansi-regex",
-        "purl": "pkg:npm/ansi-regex@5.0.0"
-      },
-      "fromVersion": "5.0.0",
-      "issueIds": [
-        "XbWLLM-NO5ZfchspcUfzcJ"
-      ],
-      "minimumFixedVersion": "5.0.1",
-      "package": "ansi-regex"
-    },
-    {
-      "candidateVersions": [
-        "2.1.4"
-      ],
-      "coordinate": {
-        "normalisedName": "cookiejar",
-        "purl": "pkg:npm/cookiejar@2.1.2"
-      },
-      "fromVersion": "2.1.2",
-      "issueIds": [
-        "uahbdWbBdhIhJ0YCoRrjDD"
-      ],
-      "minimumFixedVersion": "2.1.4",
-      "package": "cookiejar"
-    },
-    {
-      "candidateVersions": [
-        "6.0.6"
-      ],
-      "coordinate": {
-        "normalisedName": "cross-spawn",
-        "purl": "pkg:npm/cross-spawn@6.0.5"
-      },
-      "fromVersion": "6.0.5",
-      "issueIds": [
-        "20igZJ5T3ggqlNoJBP4VOJ"
-      ],
-      "minimumFixedVersion": "6.0.6",
-      "package": "cross-spawn"
-    },
-    {
-      "candidateVersions": [
-        "7.0.6"
-      ],
-      "coordinate": {
-        "normalisedName": "cross-spawn",
-        "purl": "pkg:npm/cross-spawn@7.0.3"
-      },
-      "fromVersion": "7.0.3",
-      "issueIds": [
-        "BAq4c-DBKTgsY8u94nbgn_"
-      ],
-      "minimumFixedVersion": "7.0.5",
-      "package": "cross-spawn"
+      "minimumFixedVersion": "7.5.2",
+      "package": "semver"
     }
   ]
 }
