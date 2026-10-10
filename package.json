@@ -17,7 +17,8 @@
   },
   "overrides": {
     "@babel/core": {
-      "lodash": "4.18.1"
+      "lodash": "4.18.1",
+      "json5": "2.2.3"
     },
     "@babel/generator": {
       "lodash": "4.18.1"
@@ -58,7 +59,8 @@
     "express": {
       "proxy-addr": "2.0.8",
       "qs": "6.16.0",
-      "path-to-regexp": "0.1.13"
+      "path-to-regexp": "0.1.13",
+      "body-parser": "1.20.8"
     },
     "yargs": {
       "y18n": "4.0.3"
@@ -101,6 +103,24 @@
     },
     "execa@4.0.2": {
       "cross-spawn": "7.0.6"
+    },
+    "resolve": {
+      "path-parse": "1.0.7"
+    },
+    "@babel/core@7.10.2": {
+      "semver": "5.7.2"
+    },
+    "cross-spawn@6.0.6": {
+      "semver": "5.7.2"
+    },
+    "normalize-package-data@2.5.0": {
+      "semver": "5.7.2"
+    },
+    "jest-snapshot@26.0.1": {
+      "semver": "7.8.5"
+    },
+    "node-notifier@7.0.1": {
+      "semver": "7.8.5"
     }
   }
 }
